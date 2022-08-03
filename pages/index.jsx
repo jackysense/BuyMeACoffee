@@ -211,21 +211,21 @@ export default function Home() {
               </div>
               <div style={{ display: 'flex', flexDirection: 'column' }}>
                 <button
-                  style={{margin:'10px'}}
+                  style={{ margin: '10px' }}
                   type="button"
                   onClick={() => buyCoffee(0.001)}
                 >
                   Send 1 Coffee for 0.001ETH
                 </button>
                 <button
-                  style={{margin:'10px'}}
+                  style={{ margin: '10px' }}
                   type="button"
                   onClick={() => buyCoffee(0.003)}
                 >
                   Send 3 Coffee for 0.003ETH
                 </button>
                 <button
-                  style={{margin:'10px'}}
+                  style={{ margin: '10px' }}
                   type="button"
                   onClick={() => buyCoffee(0.005)}
                 >
@@ -244,7 +244,7 @@ export default function Home() {
       {currentAccount && (memos.map((memo, idx) => {
         return (
           <div key={idx} style={{ border: "2px solid", "borderRadius": "5px", padding: "5px", margin: "5px" }}>
-            <p style={{ "fontWeight": "bold" }}>"{memo.message}"</p>
+            <p style={{ "fontWeight": "bold" }}>{memo.message}</p>
             <p>From: {memo.name} at {memo.timestamp.toString()}</p>
           </div>
         )
@@ -256,7 +256,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Created by @Jacky for Alchemy's Road to Web3 lesson two!
+          Created by @Jacky for Alchemy&apos;s Road to Web3 lesson two!
         </a>
       </footer>
     </div>
