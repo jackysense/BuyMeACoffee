@@ -211,21 +211,21 @@ export default function Home() {
               </div>
               <div style={{ display: 'flex', flexDirection: 'column' }}>
                 <button
-                  style={{ margin: '10px' }}
+                  style={{ marginTop: '10px' }}
                   type="button"
                   onClick={() => buyCoffee(0.001)}
                 >
                   Send 1 Coffee for 0.001ETH
                 </button>
                 <button
-                  style={{ margin: '10px' }}
+                  style={{ marginTop: '10px' }}
                   type="button"
                   onClick={() => buyCoffee(0.003)}
                 >
                   Send 3 Coffee for 0.003ETH
                 </button>
                 <button
-                  style={{ margin: '10px' }}
+                  style={{ marginTop: '10px' }}
                   type="button"
                   onClick={() => buyCoffee(0.005)}
                 >
